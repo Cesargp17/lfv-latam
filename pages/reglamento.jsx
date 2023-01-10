@@ -74,7 +74,7 @@ const NoticiasPage = () => {
 
             <Typography sx={{ fontWeight: 'bold', marginTop: 4, justifyContent: 'center', alignContent: 'center', display: 'flex' }}>1.3.2 - Cambio DE ID ORIGIN</Typography>
             <Typography sx={{ marginTop: 1 }}>
-            Los jugadores solo pueden cambiar su ID cuando estén abiertas las transferencias en <a href={ process.env.NEXT_PUBLIC_PAGE_URL } target='_blank' rel='noreferrer'>{ process.env.NEXT_PUBLIC_PAGE_URL }</a>&nbsp;
+            Los jugadores solo pueden cambiar su ID cuando estén abiertas las transferencias en <a href={ process.env.NEXT_PUBLIC_PAGE_URL } target='_blank' rel='noreferrer'>{ process.env.NEXT_PUBLIC_PAGE_URL }</a>
             En caso que las transferencias estén cerradas y avisar al administrador con pruebas suficientes para la actualizacion del id.
             </Typography>
 
