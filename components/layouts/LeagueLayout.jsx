@@ -5,6 +5,8 @@ import { Header } from '../ui/Header'
 import { Navbar } from '../ui/Navbar'
 import { SideMenu } from '../ui/SideMenu'
 
+const origin = typeof window == 'undefined' ? '' : window.location.origin;
+
 export const LeagueLayout = ({ 
     children, 
     title = 'LFV - Latam | Home', 
